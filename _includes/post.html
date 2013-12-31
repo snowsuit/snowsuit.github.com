@@ -12,6 +12,18 @@
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
       <span id="date">{{ page.date | date_to_string }}</a>
+      {% if page.author == "" %}
+      {% elsif page.author == "James" %}
+        &mdash; <a href="http://j2labs.io/">James</a>
+      {% elsif page.author == "Andrew" %}
+        &mdash; <a href="http://www.apgwoz.com/">Andrew</a>
+      {% elsif page.author == "Siraaj" %}
+        &mdash; <a href="https://github.com/ibnfirnas">Siraaj</a>
+      {% elsif page.author == "Malcolm" %}
+        &mdash; <a href=""></a>
+      {% elsif page.author == "Alex" %}
+        &mdash; <a href="http://www.nullspace.io">Alex</a>
+      {% endif %}
     </div>
   </div>
 
@@ -20,8 +32,6 @@
   </div>
   <div class="colophon">
     <p>
-      <span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
-      <span id="social">Find me on <a href="">Twitter</a>!</span>
     </p>
   </div>
 </div>
