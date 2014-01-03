@@ -1,47 +1,18 @@
-<!DOCTYPE html>
 <html>
+
   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>snowsuit - {{ page.title }}</title>
-      <meta name="viewport" content="width=device-width">
-
-      <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/css/syntax.css">
-
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="/css/main.css">
-
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="/css/responsive.css">
-
-      <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+    <title>SnowledgeDB</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
   </head>
+
   <body>
-    <div class="site">
 
-      <div class="sidebar" id="sidebar">
-        <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logob.png"></a></h1>
-          <span class="tagline">Hey look. Here is a thing.</span>
-        </div>
-        
-        <div class="footer">
-          <span id="footer-links">
-            <a href="/" class="footer-link">Home</a>
-            <span class="separator">&bull;</span>
-            <a href="/about.html" class="footer-link">About</a>
-          </span>
-        </div>
-      </div>
+  {{ content }}
 
-
-
-        {{ content }}
-
-    </div>
-    <script src="/scripts/responsive.js" type="text/javascript"></script>
+  <div id="footer">
+    <p>&copy; Snowsuit 2014</p>
+  </div>
+      
   </body>
 </html>

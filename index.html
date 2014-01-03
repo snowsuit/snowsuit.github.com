@@ -1,24 +1,25 @@
 ---
 layout: default
-title: Home
+title: Writings
 ---
 
-{% assign page = site.posts.first %}
-{% assign content = page.content %}
+    <div>
+      <div id="title">Snowsuit</div>
 
-<div class="content">
-  <h1>snowsuit</h1>
-  <div class="posts">
-    <ul class="posts-list">
-      {% for post in site.posts %}
-        <li class="post-link">
-          <a class="post-title" href="{{ post.url }}">
-            <span class="post-date">{{ post.date | date_to_string }}</span>
-            {{ post.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+      <div id="content">
 
+        <h1>Writings</h1>
+
+        <div id="post_list">
+        {% for post in site.posts %}
+          <div><a href="{{ post.url }}">{{ post.title }}</a>, by {{ post.author }} <i>{{ post.date | date_to_string }}</i></div>
+    {% endfor %}
+        </div>
+
+        <h1>About</h1>
+
+        <p>Snowsuit is a colleqtive of inquisitive conquistadors conquesting, quarreling, qualifying, quantifying, and quenchless.</p>
+
+        <p>When conqlusions are drawn and presentations are considered, there is a chance they may find their way here.</p>
+
+    </div>

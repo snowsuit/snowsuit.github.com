@@ -1,0 +1,70 @@
+
+/***
+ *** Global Settings
+ ***/
+
+body {
+    margin: 0 auto;
+    background: #fff;
+    color: #000;
+    width: 700px;
+    font-family: 'Maven Pro', Helvetica;
+    line-height: 1.5;
+    text-rendering: optimizelegibility;
+}
+
+/* sections */
+
+h1, h2, h3, h4 { border-bottom: solid 1px #999; }
+
+h1 { font-size: 40pt; margin-top: 48pt; font-weight: 900; }
+h2 { font-size: 28pt; margin-top: 36pt; }
+h3 { font-size: 20pt; margin-top: 28pt; }
+h4 { font-size: 16pt; margin-top: 24pt; }
+
+#title {
+    margin-top: 50pt;
+    font-size: 96pt;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 10pt;
+    height: 100;
+    width: 100%;
+}
+
+/* post list */
+
+div#post_list > div {
+    font-size: 20px;
+    text-color: #666666;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+/* aesthetics */
+
+a {
+    color: #454545;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #454545;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.credits {
+    color: #999;
+}

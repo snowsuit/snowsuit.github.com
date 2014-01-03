@@ -2,9 +2,13 @@
 layout: default
 ---
 
-{% include post.html %}
+<h1>{{ page.title }}</h1>
 
+<p class="credits">{{ page.author }}, <i>{{ page.date | date_to_string }}</i></p>
 
+{{ content }}
+
+{% if defined?(page.comments) %}
 <div id="disqus_thread"></div>
 
 <script type="text/javascript">
@@ -21,3 +25,4 @@ layout: default
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endif %}
