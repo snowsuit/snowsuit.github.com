@@ -68,3 +68,7 @@ a:hover {
 .credits {
     color: #999;
 }
+
+#disqus_thread {
+    margin-top: 150px;
+}
