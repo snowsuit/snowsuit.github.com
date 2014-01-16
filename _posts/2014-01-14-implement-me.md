@@ -6,10 +6,11 @@ author: Malcolm
 comments: false
 ---
 
-Alex sent Avi Bryant's (talk)[http://vimeo.com/4763707] around recently.  One,
-surprisingly, hard aspect of learning to program is finding projects to work on.
-While there is a lot of enthusiasm, many people just aren't sure how to spend
-their time.  Avi's suggestion is to find academic papers and implement them.
+(Alex)[http://nullspace.io/] sent Avi Bryant's (talk)[http://vimeo.com/4763707]
+around recently.  One, surprisingly, hard aspect of learning to program is
+finding projects to work on.  While there is a lot of enthusiasm, many people
+just aren't sure how to spend their time.  Avi's suggestion is to find academic
+papers and implement them.
 
 So here are three papers that I think dovetail together and very simple versions
 can be implemented in probably a few months.
