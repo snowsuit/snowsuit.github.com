@@ -6,7 +6,7 @@ author: Malcolm
 comments: false
 ---
 
-(Alex)[http://nullspace.io/] sent Avi Bryant's (talk)[http://vimeo.com/4763707]
+[Alex](http://nullspace.io/) sent Avi Bryant's [talk](http://vimeo.com/4763707)
 around recently.  One, surprisingly, hard aspect of learning to program is
 finding projects to work on.  While there is a lot of enthusiasm, many people
 just aren't sure how to spend their time.  Avi's suggestion is to find academic
@@ -18,7 +18,7 @@ can be implemented in probably a few months.
 Dynamo
 ======
 
-(Paper)[http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf]
+[Paper](http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
 The Dynamo paper an eventually consistent datastore from Amazon.  There is a lot
 going on in this paper, but what it comes down to a key-value store that is
@@ -35,7 +35,7 @@ of their data to each other.
 Vector Clocks
 =============
 
-(Blog Post)[http://docs.basho.com/riak/latest/theory/concepts/Vector-Clocks/]
+[Blog Post](http://docs.basho.com/riak/latest/theory/concepts/Vector-Clocks/)
 
 After implementing above, you might notice a problem you: your database is
 inconsistent, meaning not all machines are storing the same data.  The key `K`
@@ -55,9 +55,9 @@ how to resolve that conflict and write the correct value back.
 CRDTs
 =====
 
-(Video)[http://research.microsoft.com/apps/video/dl.aspx?id=153540]
+[Video](http://research.microsoft.com/apps/video/dl.aspx?id=153540)
 
-(Paper)[http://hal.inria.fr/docs/00/60/93/99/PDF/RR-7687.pdf]
+[Paper](http://hal.inria.fr/docs/00/60/93/99/PDF/RR-7687.pdf)
 
 Implementing resolvers for data can be annoying, wouldn't it be nice if the
 database could do this for you?  CRDTs are 'conflict-free data types' or
