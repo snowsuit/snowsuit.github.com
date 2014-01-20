@@ -51,7 +51,7 @@ div#post_list > div {
 
 a {
     color: #454545;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
